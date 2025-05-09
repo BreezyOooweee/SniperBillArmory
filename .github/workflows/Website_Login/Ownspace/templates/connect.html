@@ -1,0 +1,136 @@
+{% extends 'base.html' %} {% block title %}Connect{% endblock %}
+
+{% block content %}
+<style>
+    body {
+        background-color: rgb(44, 25, 25);
+        color:#fff;
+
+    }
+
+    header {
+        background-image: url('static/trenches.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    h1, h2{
+        text-align: center;
+        padding: 1em;
+
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h3 {
+        text-decoration: underline;
+    }
+
+    .row1 {
+        background-color: orangered;
+        padding:30px;
+        border-radius: 30px;
+        width: 20em;
+        height: 18em;
+        float: inline-start;
+        margin-inline-start: 40px;
+        margin-top: 50px;
+    }
+
+    .row2 {
+        background-color: orangered;
+        padding:30px;
+        border-radius: 30px;
+        width: 18em;
+        height: 14em;
+        float: inline-start;
+        margin-inline-start: 180px;
+        margin-top: 50px;
+    }
+
+    address {
+        float: inline-start;
+        padding: 1em;
+        border-radius: 1em;
+        margin-top: 2em;
+        background-color: burlywood;
+        color: black;
+    }
+
+</style>
+<body>
+    
+    <header>
+        <h1>Sniper Bill Armory</h1>
+        <h2><u>Gun Cleaning, Skins, & More</u></h2>
+    </header>
+
+    <div class="row1">
+        <h3>Gun Skins</h3>
+        <h4>$100-$300</h4>
+        <ul>
+            <li>Vinyl Wraps</li>
+            <li>Engravings</li>
+            <li>LED's</li>
+            <li>Firearms/Casings</li>
+        </ul>
+    </div>
+
+    <div class="row1">
+        <h3>Gun Cleaning</h3>
+        <h4>$20-$30</h4>
+        <ul>
+            <li>Assault/Sniper Rifles</li>
+            <li>Machine/Submachine Guns</li>
+            <li>Shotguns</li>
+            <li>Handguns/Pistols</li>
+        </ul>
+    </div>
+
+    <div class="row1">
+        <h3>Trainings</h3>
+        <h4>$150-$225</h4>
+        <ul>
+            <li>Dive-Bys ATV/Motorcycle</li>
+            <li>Trench Warfare</li>
+            <li>Explosives</li>
+            <li>Hand-to-Hand Combat</li>
+            <li>Dueling</li>
+            <li>Shooting/Spraying</li>
+            <li>Dog Trainings</li>
+        </ul>
+    </div>
+
+    <div class="row2">
+        <h3>Firearms/Ammo </h3>
+        <ul>
+            <li>View Firearms</li>
+            <li>View Ammo</li>
+            <li>View Bundles</li>
+            <li>Seasonal Deals/Sales</li>
+            <li>Trending</li>
+        </ul>
+    </div>
+
+    <div class="row2">
+        <h3>Swords/Blades</h3>
+        <ul>
+            <li>Katanas</li>
+            <li>Excalibur</li>
+            <li>Dual Blades</li>
+            <li>Machetes</li>
+        </ul>
+    </div>
+
+    <address id="signiture">
+        Creator: Breezy_Oooweee |
+        Updated: 05/08/2025 |
+        Owner Contact: ThatBoyReezy23@gmail.com |
+        Web Dev Contact: BreezyReallyHim@gmail.com <br><br>
+        Social Media: Instagram <a href="#" role="button">@ThatBoyReezy23</a>; Twitter <a href="#" role="button">@ThatBoyReezy23</a>; Facebook <a href="#" role="button">@ThatBoyReezy23</a>;
+    </address>
+</body>
+{% endblock %}
